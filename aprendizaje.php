@@ -69,6 +69,86 @@
         echo str_replace("PHP", "Java", $mensaje);
         echo "<br>";
 
+        //Convertir a Minúsculas
+        echo strtolower($mensaje);
+        echo "<br>";
+
+        //Convertir a Mayúsculas
+        echo strtoupper($mensaje);
+        echo "<br>";
+
+        //Comparar Cadenas - La propiedad de strcmp compara las cadenas teniendo en cuenta la cantidad de bits que estas ocupan. Por ejemplo si la cadena Num1 es menor a la Num2 se dara un numero negativo y si es al reves, positivo. En caso de ser iguales, saldra un valor igual a cero
+        echo strcmp("a", "b");
+        echo "<br>";
+
+        //Sustraer Cadena - Con la propiedad substr, extraemos la porcion de cadena que no quiera, teniendo en cuenta desde que posicion del string comienza la parte a substraer, ademas tambien se puede indicar que cantidad de caracteres se van a extraer
+        echo substr($mensaje , 8, 8);
+        echo "<br>";
+
+        //Remover Espacios en Blanco
+        echo trim("    Hola    soy     Alejandro");
+        echo "<br>";
+
+    // Operadores
+
+        $x =15;
+        $y =5;
+       
+        // Operaciones Aritmeticas
+
+            //Suma
+            echo $x + $y;
+            echo "<br>";
+
+            //Resta
+            echo $x - $y;
+            echo "<br>";
+
+            //Multiplicación
+            echo $x * $y;
+            echo "<br>";
+
+            //División
+            echo $x / $y;
+            echo "<br>";
+
+            //Modulo
+            echo $x % $y;
+            echo "<br>";
+
+            //Exponencial
+            echo $x ** $y;
+            echo "<br>";
+
+        // Operaciones de Asignación
+
+            $x = $y;
+            $x += $y;
+            $x -= $y;
+            $x *= $y;
+
+            //Igual a .. (compara el valor de la variable)
+            var_dump($x == $y);   
+            //Es identico a .. (compara el valor y tipo de variable)
+            var_dump($x === $y);
+            // Mayor a ..
+            var_dump($x > $y);
+            // Menor a ..
+            var_dump($x < $y);
+            // Mayor Igual a ..
+            var_dump($x >= $y);
+            // Menor Igual a ..
+            var_dump($x <= $y);
+            // Distinto a  ..
+            var_dump($x <> $y);
+            // No es igual a ..
+            var_dump($x != $y);
+            // No es Identico a  ..
+            var_dump($x !== $y);
+
+            //Operadores de Incremento;
+            echo $x++;
+            echo $x--;
 
 
 ?>
