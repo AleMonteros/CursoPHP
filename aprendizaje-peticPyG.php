@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Formulario</title>
-	<link rel="stylesheet" href="boton.css">
-	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 	<style>
-		body{font-family: Arial; background-color: #256999; box-sizing: border-box; padding: 100px;}
+		body{
+			font-family: Arial; 
+			background-color: #256999; 
+			box-sizing: border-box; 
+			padding: 100px;
+		}
 
 		form{
 			background-color: white;
@@ -104,12 +107,12 @@
 		}
 
 		.btn{
-	border-radius: 3px;
-	display: inline-block;
-	padding: 20px 15px;
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+			border-radius: 3px;
+			display: inline-block;
+			padding: 20px 15px;
+			text-decoration: none;
+			text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+			box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
 		}
 
 		.btn-green{
@@ -127,7 +130,6 @@
 		.btn-green:active{
 			background-color: #29962A;
 		}
-
 	</style>
 </head>
 <body>
@@ -138,14 +140,16 @@
 	</div>
 	<div id="formularios">
 		<form action="recibir_post.php" id="form_session" method="post">
-
-			<p>Correo electrónico:</p>
+			<p>
+				Correo electrónico:
+			</p>
 			<div class="field-container">
 				<i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>	
 				<input name="usuario" type="text" class="field" placeholder="user@example.com"> <br/>
 			</div>
-
-			<p>Contraseña:</p>
+			<p>
+				Contraseña:
+			</p>
 			<div class="field-container">
 				<i class="fa fa-key fa-lg" aria-hidden="true"></i>	
 				<input name="password" type="password" class="field" placeholder="*******"> <br/>
@@ -155,10 +159,6 @@
 				<a href="recibir_get.php?tipo_usuario=nuevo&navegador=chrome">Registra cuenta</a>
 			</p>
 		</form>	
-
-	
-
 	</div>
-
 </body>
 </html>
