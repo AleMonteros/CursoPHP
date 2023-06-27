@@ -7,4 +7,5 @@
 
 	echo "El usuario es ". $usuario . "<br>";
 	echo "El password es " . $password . "<br>";
+
 ?>

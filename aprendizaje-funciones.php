@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Funciones</title>
@@ -21,6 +22,7 @@
         }
     </style>
 </head>
+
 <body>
     <div id="container">
         <h2>Multiplicaciones</h2>
@@ -32,13 +34,12 @@
 
         <?php
 
-            include ("operaciones.php");
-            validarCampos();
-
-
+        include("operaciones.php");
+        validarCampos();
 
         ?>
 
     </div>
 </body>
+
 </html>
