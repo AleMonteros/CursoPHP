@@ -1,6 +1,6 @@
 <?php 
 
-    include_once 'db.php';
+    include_once 'db-lenguajes.php';
 
     class Survey extends DB{
         
